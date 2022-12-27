@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-     private  var handler :Handler = Handler(Looper.myLooper()!!,Handler.Callback {
+     private var handler :Handler = Handler(Looper.myLooper()!!,Handler.Callback {
           when(it.what)
           {
               1->binding.sbRabbit.progress = progressRabbit
